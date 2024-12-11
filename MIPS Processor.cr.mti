@@ -1,0 +1,45 @@
+{D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/datapath.v} {1 {vlog -work work -stats=none {D:\Studies\Senior-1 Computer\Fall 2024\CSE311s - Computer Architecture\Assignments\MIPS-Processor-Verilog\datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module datapath
+-- Compiling module ALU
+-- Compiling module imm_extender
+
+Top level modules:
+	datapath
+
+} {} {}} {D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Imem.v} {1 {vlog -work work -stats=none {D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Imem.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Imem
+
+Top level modules:
+	Imem
+
+} {} {}} {D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Register_File.v} {1 {vlog -work work -stats=none {D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Register_File.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Register_File
+
+Top level modules:
+	Register_File
+
+} {} {}} {D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor.v} {1 {vlog -work work -stats=none {D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MIPS_Processor
+
+Top level modules:
+	MIPS_Processor
+
+} {} {}} {D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Dmem_tb.v} {1 {vlog -work work -stats=none {D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Dmem_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Dmem_tb
+
+Top level modules:
+	Dmem_tb
+
+} {} {}} {D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Imem_tb.v} {1 {vlog -work work -stats=none {D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Imem_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Imem_tb
+
+Top level modules:
+	Imem_tb
+
+} {} {}}
