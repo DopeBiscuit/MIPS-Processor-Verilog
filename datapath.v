@@ -73,12 +73,13 @@ imm_extender imm(
 );
 
 
-// PC
+// PC logic
 always @(posedge clk or posedge rst) begin
+    // Reset
     if(rst) begin
         pc <= 32'b0;
     end
-    // Jump
+    // Jump 
     else if(Jump) begin
         pc <= {pc_plus_4[31:28] ,instruction[25:0], 2'b00};
     end

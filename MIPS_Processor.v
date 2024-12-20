@@ -3,19 +3,19 @@ module MIPS_Processor(
     input rst
 );
 
-// Internal signals
+// Internal signals, implicit declaration gave errors in simulation
 wire [31:0] instruction, read_data, write_data, alu_result;
 wire [31:0] pc;
 wire Zero, RegDst, Jump, MemRead, MemtoReg, MemWrite, ALUSrc, RegWrite, pc_src;
 wire [3:0] ALUControl;
 
-
+// Instruction Memory
 Imem Imem(
     .addr(pc[11:0]),
     .instruction(instruction)
 );
 
-// Instances
+// Controller 
 controller controller(
     .op_code(instruction[31:26]),
     .funct(instruction[5:0]),
@@ -31,7 +31,7 @@ controller controller(
     .pc_src(pc_src)
 );
 
-
+// Datapath 
 datapath datapath(
     .clk(clk),
     .rst(rst),
@@ -50,6 +50,7 @@ datapath datapath(
     .pc(pc)
 );
 
+// Data Memory
 Dmem Dmem(
     .clk(clk),
     .addr(alu_result[13:0]),

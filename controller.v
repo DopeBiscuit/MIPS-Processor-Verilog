@@ -16,7 +16,7 @@ module controller(
 
     // Internal signals
     wire [1:0] ALUOp;
-    wire Branch;
+    wire Branch, BNE;
 
 
     decoder dec(
@@ -38,7 +38,7 @@ module controller(
         .ALUControl(ALUControl)
     );
 
-    assign pc_src = Branch && Zero;
+    assign pc_src = (Branch && Zero) || (BNE && !Zero); 
 
 endmodule
 
@@ -55,6 +55,7 @@ module decoder(
     output reg RegWrite
 );
 
+
 always @(*) begin
     case(op_code)
         // R-type
@@ -68,6 +69,7 @@ always @(*) begin
             MemWrite = 1'b0;
             ALUSrc = 1'b0;
             RegWrite = 1'b1;
+            BNE = 1'b0;
         end
         // J-type
         6'b000010: begin
@@ -80,6 +82,7 @@ always @(*) begin
             MemWrite = 1'b0;
             ALUSrc = 1'b0;
             RegWrite = 1'b0;
+            BNE = 1'b0;
         end
         // BEQ
         6'b000100: begin
@@ -92,6 +95,20 @@ always @(*) begin
             MemWrite = 1'b0;
             ALUSrc = 1'b0;
             RegWrite = 1'b0;
+            BNE = 1'b0;
+        end
+        // BNE
+        6'b000101: begin
+            RegDst = 1'b0;
+            Jump = 1'b0;
+            Branch = 1'b0;
+            MemRead = 1'b0;
+            MemtoReg = 1'b0;
+            ALUOp = 2'b01;
+            MemWrite = 1'b0;
+            ALUSrc = 1'b0;
+            RegWrite = 1'b0;
+            BNE = 1'b1;
         end
         // LW
         6'b100011: begin
@@ -104,6 +121,7 @@ always @(*) begin
             MemWrite = 1'b0;
             ALUSrc = 1'b1;
             RegWrite = 1'b1;
+            BNE = 1'b0;
         end
         // SW
         6'b101011: begin
@@ -116,6 +134,7 @@ always @(*) begin
             MemWrite = 1'b1;
             ALUSrc = 1'b1;
             RegWrite = 1'b0;
+            BNE = 1'b0;
         end
         // ADDI
         6'b001000: begin
@@ -128,18 +147,7 @@ always @(*) begin
             MemWrite = 1'b0;
             ALUSrc = 1'b1;
             RegWrite = 1'b1;
-        end
-        // SUBI
-        6'b001001: begin
-            RegDst = 1'b0;
-            Jump = 1'b0;
-            Branch = 1'b0;
-            MemRead = 1'b0;
-            MemtoReg = 1'b0;
-            ALUOp = 2'b01;
-            MemWrite = 1'b0;
-            ALUSrc = 1'b1;
-            RegWrite = 1'b1;
+            BNE = 1'b0;
         end
         default: begin
             RegDst = 1'b0;
@@ -151,6 +159,7 @@ always @(*) begin
             MemWrite = 1'b0;
             ALUSrc = 1'b0;
             RegWrite = 1'b0;
+            BNE = 1'b0;
         end
 
     endcase

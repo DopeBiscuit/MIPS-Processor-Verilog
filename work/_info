@@ -9,80 +9,80 @@ z2
 cModel Technology
 dC:/intelFPGA/18.1
 vALU
-Z0 !s110 1733917757
+Z0 !s110 1734113691
 !i10b 1
-!s100 :@<HUH6S4iW]C^3oTImK>3
-IB1zObgIoj`2mEoNz]nDKT3
+!s100 >mQd_lL=hTW;UBaNz?`NG3
+Ihed0j=k:Rcn:hVj;dTL>e0
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dD:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog
-Z3 w1733871194
-Z4 8D:\Studies\Senior-1 Computer\Fall 2024\CSE311s - Computer Architecture\Assignments\MIPS-Processor-Verilog\datapath.v
-Z5 FD:\Studies\Senior-1 Computer\Fall 2024\CSE311s - Computer Architecture\Assignments\MIPS-Processor-Verilog\datapath.v
-L0 97
+Z3 w1734113654
+Z4 8D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor_tb.v
+Z5 FD:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor_tb.v
+L0 583
 Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1733917757.000000
-Z8 !s107 D:\Studies\Senior-1 Computer\Fall 2024\CSE311s - Computer Architecture\Assignments\MIPS-Processor-Verilog\datapath.v|
-Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:\Studies\Senior-1 Computer\Fall 2024\CSE311s - Computer Architecture\Assignments\MIPS-Processor-Verilog\datapath.v|
+Z7 !s108 1734113690.000000
+Z8 !s107 D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor_tb.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor_tb.v|
 !i113 1
 Z10 o-work work
 Z11 tCvgOpt 0
 n@a@l@u
 valu_controller
-Z12 !s110 1733917758
+R0
 !i10b 1
-!s100 MD8@?PnkF_jRI9<6k^]dL3
-I3T]REB1XeTIgPOoRn?5kL3
+!s100 B3Id<SkaZ3>E]F_NCULF82
+IU9LjCQfAd=_fV<O=:QORW0
 R1
 R2
-Z13 w1733871049
-Z14 8D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/controller.v
-Z15 FD:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/controller.v
-L0 161
+R3
+R4
+R5
+L0 461
 R6
 r1
 !s85 0
 31
-Z16 !s108 1733917758.000000
-Z17 !s107 D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/controller.v|
-Z18 !s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/controller.v|
+R7
+R8
+R9
 !i113 1
 R10
 R11
 vcontroller
-R12
+R0
 !i10b 1
-!s100 l_>615FO]F`@@KUR`]@Vn1
-Ik1]1DiCRO0NP=JejLZh1e1
+!s100 kH^IlY;8FlJ4Ij84_c:hG3
+IH1^o=9CMfQeRjl2mK@ZW:1
 R1
 R2
-R13
-R14
-R15
-L0 1
+R3
+R4
+R5
+L0 291
 R6
 r1
 !s85 0
 31
-R16
-R17
-R18
+R7
+R8
+R9
 !i113 1
 R10
 R11
 vdatapath
 R0
 !i10b 1
-!s100 hfJk?:TiUN4mmFal1ozR]3
-IV1B^zRia<gid0zHZoh:gh3
+!s100 jaZU<HSn10C5Z`CBUa?oD1
+IYiI1]QhbEfJGQ24HHdESH1
 R1
 R2
 R3
 R4
 R5
-L0 1
+L0 486
 R6
 r1
 !s85 0
@@ -94,50 +94,50 @@ R9
 R10
 R11
 vdecoder
-R12
+R0
 !i10b 1
-!s100 _L9oJoHPK>XlWQJZMMJSM2
-IP;h:M1E_?n:HT?zgc?^Q_3
+!s100 lddDNz:8CZ6=PB@Kk<miY2
+IOU@>K<^jJi1G=65M2HlfK0
 R1
 R2
-R13
-R14
-R15
-L0 45
+R3
+R4
+R5
+L0 336
 R6
 r1
 !s85 0
 31
-R16
-R17
-R18
+R7
+R8
+R9
 !i113 1
 R10
 R11
 vDmem
 R0
 !i10b 1
-!s100 Q^XfDUZCXf^KU>J`CQg5X2
-InhnS;_;BC9cWRW?[GN1Q[3
+!s100 DNI=aaEWE=a8iB3A2?mZR2
+IUZ<BU4Q[eH94[=llmSOX^0
 R1
 R2
-w1733917699
-8D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Dmem.v
-FD:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Dmem.v
-L0 1
+R3
+R4
+R5
+L0 233
 R6
 r1
 !s85 0
 31
 R7
-!s107 D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Dmem.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Dmem.v|
+R8
+R9
 !i113 1
 R10
 R11
 n@dmem
 vDmem_tb
-R12
+Z12 !s110 1733917758
 !i10b 1
 !s100 Ek;zAzSmW5bSVYMT[:Eoo0
 IW=fnkP^^f17@mimFK=Xb63
@@ -151,7 +151,7 @@ R6
 r1
 !s85 0
 31
-R16
+Z13 !s108 1733917758.000000
 !s107 D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Dmem_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Dmem_tb.v|
 !i113 1
@@ -161,21 +161,21 @@ n@dmem_tb
 vImem
 R0
 !i10b 1
-!s100 enFBK1fiN0m01SSiidMhX0
-I56dVmX9M[AUVHC2Km`i=_2
+!s100 ?cAG^Xhz1GL<Wo>`Ua1^z2
+ICbn59BhnajJNo??CPe85M1
 R1
 R2
-w1733917753
-8D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Imem.v
-FD:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Imem.v
-L0 1
+R3
+R4
+R5
+L0 275
 R6
 r1
 !s85 0
 31
 R7
-!s107 D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Imem.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Imem.v|
+R8
+R9
 !i113 1
 R10
 R11
@@ -195,7 +195,7 @@ R6
 r1
 !s85 0
 31
-R16
+R13
 !s107 D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Imem_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Imem_tb.v|
 !i113 1
@@ -205,14 +205,14 @@ n@imem_tb
 vimm_extender
 R0
 !i10b 1
-!s100 z;ehAVnCYNZzl1Y<ABSeO2
-IJTh:6n2HcOEAJl9CKOPF;0
+!s100 g45M79T:SzE^eYB8dPIE93
+IRFWS0T<XBT5PYB^a0_n9H3
 R1
 R2
 R3
 R4
 R5
-L0 122
+L0 608
 R6
 r1
 !s85 0
@@ -224,67 +224,67 @@ R9
 R10
 R11
 vMIPS_Processor
-R12
+R0
 !i10b 1
-!s100 h;b<O03<X>`@_k94>1da?0
-IS3?P;m7]2kLZzkiaVU;Z[3
+!s100 NDg0N7g3YbJNbk_lOnnYU3
+ICQ?CRCOVX44^enA2mKPY[1
 R1
 R2
-w1733864030
-8D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor.v
-FD:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor.v
-L0 1
+R3
+R4
+R5
+L0 167
 R6
 r1
 !s85 0
 31
 R7
-!s107 D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor.v|
+R8
+R9
 !i113 1
 R10
 R11
 n@m@i@p@s_@processor
 vMIPS_Processor_tb
-R12
+R0
 !i10b 1
-!s100 <Vb1c2N@n_Sk^JmJ2EK4K1
-IgfN65_m<fOef?a^_g73NX0
+!s100 @d`4`Te<HO7S:KfBhmV3z1
+I:OfDDV5D^K49zmJGEAZc^1
 R1
 R2
-w1733864409
-8D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor_tb.v
-FD:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor_tb.v
-L0 1
+R3
+R4
+R5
+L0 2
 R6
 r1
 !s85 0
 31
-R16
-!s107 D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor_tb.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/MIPS_Processor_tb.v|
+R7
+R8
+R9
 !i113 1
 R10
 R11
 n@m@i@p@s_@processor_tb
 vRegister_File
-R12
+R0
 !i10b 1
-!s100 H3@HhlA0[^IOBg4F5`2mI3
-I?<W^o4O_f>l8WR<koiG_m1
+!s100 c4o`XYSP:SgeG2gzFRejG2
+I4<gXzeS]XlDIXh5DjH<gS1
 R1
 R2
-w1733864608
-8D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Register_File.v
-FD:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Register_File.v
-L0 1
+R3
+R4
+R5
+L0 620
 R6
 r1
 !s85 0
 31
-R16
-!s107 D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Register_File.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/Studies/Senior-1 Computer/Fall 2024/CSE311s - Computer Architecture/Assignments/MIPS-Processor-Verilog/Register_File.v|
+R7
+R8
+R9
 !i113 1
 R10
 R11
