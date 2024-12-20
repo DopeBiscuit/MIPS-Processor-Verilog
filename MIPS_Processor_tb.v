@@ -50,7 +50,7 @@ module MIPS_Processor_tb;
         add $t3, $t1, $t2   // t3 = 300
         and $t4, $t3, $t1   // t4 = 8
         or  $t5, $t2, $t4   // t5 = 108
-        slt $t6, $t5, $t3   // t6 = -1
+        slt $t6, $t5, $t3   // t6 = 1
         nor $t7, $t6, $t1   // t7 = 0
 
         j helo
@@ -66,7 +66,7 @@ module MIPS_Processor_tb;
         hey:
 
         Final Values:
-        t0 = 0, t1 = 200, t2 = 100, t3 = 300, t4 = 8, t5 = 108, t6 = -1, t7 = 0
+        t0 = 0, t1 = 200, t2 = 100, t3 = 300, t4 = 8, t5 = 108, t6 = 1, t7 = 0
     */
 
 	reg [31:0] temp [0:12];
@@ -126,8 +126,8 @@ module MIPS_Processor_tb;
             $display("Error: t5 = %h, expected 108", uut.datapath.RF.registers[13]);
             i = 1;
         end
-        if(uut.datapath.RF.registers[14] != 32'hffffffff) begin
-            $display("Error: t6 = %h, expected -1", uut.datapath.RF.registers[14]);
+        if(uut.datapath.RF.registers[14] != 32'h1) begin
+            $display("Error: t6 = %h, expected 1", uut.datapath.RF.registers[14]);
             i = 1;
         end
         if(uut.datapath.RF.registers[15] != 32'h00000000) begin
